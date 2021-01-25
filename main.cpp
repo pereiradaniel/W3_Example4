@@ -24,8 +24,12 @@ int main()
 						 // Void is an incomplete type! void is NO type.
 	
 	int arr[5]{ 1,2,3,45 };
-
+	double val = 1.234455677;
+	char str[]{ "Hello" };
+	
 	memDump(arr, 20);
+	memDump(&val, 8);
+	memDump(&str, 6);
 
 	cout << endl;
 }
